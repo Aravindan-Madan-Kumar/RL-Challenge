@@ -1,0 +1,42 @@
+###########################################################################
+############################## INFORMATION ################################
+###########################################################################
+
+# Fill in the following information to register for the Car Racing Challenge.
+# For that you need to:
+# 1. create a private repository on git.rwth-aachen.de. For that you can
+#     1.1 head to https://git.rwth-aachen.de/dsme-public/rllbc/bpa-iii
+#     1.2 click "FORK" and fill in the data as you wish
+#     1.3 make sure that the visibility level is set to PRIVATE
+
+# 2. generate an access token for the repository. For that follow these steps:
+#     2.1 navigate to your created repository
+#     2.2 in the left sidebar head over to "Settings" and then "Access Tokens"
+#     2.3 create an appropriate access token by:
+#         2.3.1 giving it a name you prefer
+#         2.3.2 CLEAR the expiration date
+#         2.3.3. Select the role MAINTAINER
+#         2.3.4. CHECK the box for "read_repository"
+#         2.3.5. CREATE token and SAVE it
+#     2.4 check whether you have successfully created a token by:
+#         2.4.1 in the left sidebar head to "Manage" then "Members"
+#         2.4.2 the list of members should include a Bot with the token name
+#         2.4.3. check that role is "Maintainer", expiration_date is empty
+
+# 3. Think of a name that will represent your team on the results webpage
+#    The name should consist of a maximum of 10 characters
+
+# 4. Fill in the obtained data in the form below
+#    For the repository-url, enter the url of the main page of the repository
+#    The format is: https://git.rwth-aachen.de/user_name/project_name
+
+###########################################################################
+
+# Format: https://git.rwth-aachen.de/<user_name>/<project_name>
+repository-url: "https://git.rwth-aachen.de/<user_name>/<project_name>"
+
+# Personal/project access token with read_repository scope
+access-token: "glpat-xxx"
+
+# Team name shown on leaderboard (max 10 chars)
+team-name: ""
